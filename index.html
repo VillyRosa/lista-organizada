@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt_BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista Organizada</title>
+    <link rel="stylesheet" href="style/style.css">
+</head>
+<body>
+    
+    <header>
+        <h1>Lista Organizada</h1>
+    </header>
+
+    <section>
+
+        <div>
+
+            Id: <input type="number" name="" id="id" value="0"><br>
+            Nome: <input type="text" name="" id="name"><br><br>
+
+        </div>
+
+        <div id="botoes">
+
+            <input id="btn" type="button" value="Cadastrar" onclick="cadastrar()">
+            <input id="btn" type="button" value="Organizar" onclick="organizar()"><br>
+            <input id="btn" type="button" value="Editar" onclick="editar()">
+            <input id="btn" type="button" value="Limpar" onclick="limpar()"><br><br>
+
+        </div>
+
+        <div>
+            <table border="1" id="table">
+                <tr>
+                    <th>Id</th>
+                    <th>Nome</th>
+                </tr>
+            </table>
+        </div>
+
+    </section>
+
+    <footer>
+        <p>&copy;VillyRosa</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,53 @@
+body{
+    background-color: rgb(70, 142, 236);
+    font: normal 15pt Arial;
+}
+
+header{
+    color: white;
+    text-align: center;
+}
+
+section{
+    background-color: white;
+    border-radius: 10px;
+    padding: 15px;
+    width: 500px;
+    margin: auto;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.363);
+}
+
+#id{
+    margin-left: 40px;
+}
+
+#name{
+    margin-left: 4px;
+}
+
+#botoes{
+    margin-left: 290px;
+    margin-top: -71px;
+}
+
+#btn{
+    background-color: rgba(128, 128, 128, 0.082);
+    cursor: pointer;
+    transition: all 0.5s;
+    width: 80px;
+}
+
+#btn:hover{
+    background-color: rgba(128, 128, 128, 0.308);;
+}
+
+table{
+    width: 500px;
+    text-align: center;
+}
+
+footer{
+    color: white;
+    text-align: center;
+    font-style: italic;
+}
